@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .card {
+            
+  width: 190px;
+  height: 254px;
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin: 50px;
+  padding: 100px;
+  
+}
+
+.card h2 {
+
+  z-index: 1;
+  color: black;
+  font-size: 2em;
+  
+  
+}
+
+.card::before {
+    
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+  height: 130%;
+  animation: rotBGimg 3s linear infinite;
+  transition: all 0.2s linear;
+}
+
+@keyframes rotBGimg {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  background-image: url(images/pizza.jpg)
+  ;
+  inset: 5px;
+  border-radius: 15px;
+  background-position: center;
+}  
+/* card-2 */
+.card-2 {
+            
+            width: 190px;
+            height: 254px;
+            background-color: black;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            float: right;
+            place-content: center;
+            place-items: center;
+            overflow: hidden;
+            border-radius: 20px;
+            margin-top: 100px;
+            margin: 50px;
+            padding: 100px;
+            
+          }
+          
+          .card-2 h2 {
+          
+            z-index: 1;
+            color: black;
+            font-size: 2em;
+        
+            
+            
+          }
+          
+          .card-2::before {
+              
+            content: '';
+            position: absolute;
+            width: 100px;
+            background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+            height: 130%;
+            animation: rotBGimg 3s linear infinite;
+            transition: all 0.2s linear;
+          }
+          
+          @keyframes rotBGimg {
+            from {
+              transform: rotate(0deg);
+            }
+          
+            to {
+              transform: rotate(360deg);
+            }
+          }
+          
+          .card-2::after {
+            content: '';
+            position: absolute;
+            background-image: url(images/kebab.jpg)
+            ;
+            inset: 5px;
+            border-radius: 15px;
+            background-position: center;
+          }  
+
+          /* card-3 */
+
+          .card-3 {
+            
+            width: 190px;
+            height: 254px;
+            background-color: black;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            float: right;
+            place-content: center;
+            place-items: center;
+            overflow: hidden;
+            border-radius: 20px;
+            margin-top: 100px;
+            margin: 50px;
+            padding: 100px;
+            
+          }
+          
+          .card-3 h2 {
+          
+            z-index: 1;
+            color: black;
+            font-size: 2em;
+            
+            
+          }
+          
+          .card-3::before {
+              
+            content: '';
+            position: absolute;
+            width: 100px;
+            background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+            height: 130%;
+            animation: rotBGimg 3s linear infinite;
+            transition: all 0.2s linear;
+          }
+          
+          @keyframes rotBGimg {
+            from {
+              transform: rotate(0deg);
+            }
+          
+            to {
+              transform: rotate(360deg);
+            }
+          }
+          
+          .card-3::after {
+            content: '';
+            position: absolute;
+            background-image: url(images/Air.jpg)
+            ;
+            inset: 5px;
+            border-radius: 15px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font: inherit;
+            
+          }  
+            
+        .div-h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: bisque;
+            border-radius: 100px;
+            width: 400px;
+            
+            position: relative;
+            
+           
+
+        }
+        .page{
+                height: 650px;
+            }
+            .button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 100px;
+            }
+            p{
+               font-size: 20px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               border: 1px solid rgb(0, 0, 0);
+               border-radius: 100px;
+               width: 100px;
+               
+               
+               
+            }
+            p:hover{
+                background-color: aquamarine;
+                transition-delay: .4 ;
+                transition: .4 ease-in-out;
+                text-decoration-line: none;
+            }
+            a{
+                text-decoration-line:none ;
+                color: none;
+                text-decoration-color: none;
+            }
+  </style>
+  <div class="page">
+  <div class="div-h1">
+    <h1>Favorite food and drink</h1>
+  </div>
+
+  <center>
+    <div class="card">
+        
+    </div>
+
+</style>
+<div class="card-2">
+    </div>
+
+</style>
+<div class="card-3">
+    
+</div></center>
+
+
+
+</div>
+
+<div class="button">
+    <a href="index.html"><p>Kembali</p></a>
+    </div>
+
+
+</body>
+</html>
